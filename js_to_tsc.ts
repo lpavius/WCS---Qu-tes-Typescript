@@ -2,7 +2,7 @@ function hello(name : string) {
     console.log("Hello " + name);
 }
 
-const firstName = "bob";
+const firstName: string = "bob";
 
 hello(firstName);
 hello(firstName + " marley");
